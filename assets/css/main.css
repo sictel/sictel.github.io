@@ -1629,7 +1629,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #f0f0f0;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2001,7 +2001,7 @@
 		button.special,
 		.button.special {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #162a83 !important;
 		}
 
 			input[type="submit"].special:after,
@@ -2443,7 +2443,7 @@
 		}
 
 	select option {
-		background-color: #312450;
+		background-color: #162a83;
 		color: #ffffff;
 	}
 
@@ -2595,7 +2595,7 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #162a83;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3338,11 +3338,11 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #162a83;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #101e60;
 		}
 
 		.wrapper.style2 {
@@ -3626,7 +3626,14 @@
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
+		color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+	}
+
+	#footer > .credits {
+		font-size: 0.8em;
 		color: rgba(255, 255, 255, 0.15);
+    text-align: center;
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3643,7 +3650,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #101e60;
 		cursor: default;
 		height: 100vh;
 		left: 0;
