@@ -3,11 +3,11 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
- new CookiesEuBanner(function () {
+ 
+(function($) {
+new CookiesEuBanner(function () {
         // Your code here
     });
-(function($) {
-
 	skel.breakpoints({
 		xlarge:	'(max-width: 1680px)',
 		large:	'(max-width: 1280px)',
