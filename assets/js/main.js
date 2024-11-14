@@ -5,9 +5,7 @@
 */
  
 (function($) {
-new CookiesEuBanner(function () {
-        // Your code here
-    });
+
 	skel.breakpoints({
 		xlarge:	'(max-width: 1680px)',
 		large:	'(max-width: 1280px)',
